@@ -26,11 +26,13 @@ main {
   padding-left: .5em;
   padding-right: .5em;
   margin-top: 2em;
+  position: relative;
 }
 
 header h1 {
   font-family: Cookie, cursive;
   font-size: 3rem;
+  position: absolute;
   margin-top: 0;
   margin-bottom: -.35em;
   padding-top: .5em;
