@@ -172,7 +172,8 @@ footer p {
 @media only screen and (min-width: 38em) {
 
   html {
-    margin-left: 0;
+    line-height: 1.4em;
+    font-size: 110%;
   }
 
   nav a {
@@ -192,4 +193,10 @@ footer p {
   li:first-child {
     font-size: .5rem;
   }
+}
+
+@media only screen and (min-width: 60em) {
+
+  font-size: 120%;
+  line-height: 1.5;
 }
